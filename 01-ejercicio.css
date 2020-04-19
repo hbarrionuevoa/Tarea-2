@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    width: 100vh;
+    height: 20vh;
+    background-color: darkorchid;
+}
+
+.sidebar{
+    width: 33vh;
+    height: 50vh;
+    background-color: darksalmon;
+    float: left;
+}
+
+.main-content{
+    width: 100vh;
+    height: 50vh;
+    background-color: darkcyan;
+}
+
+.aside-1{
+    width: 33vh;
+    height: 20vh;
+    background-color: darkseagreen;
+    float: left;
+}
+
+.aside-2{
+    width: 31vh;
+    height: 20vh;
+    background-color: darkolivegreen;
+    float: left;
+}
+
+.aside-3{
+    width: 32.8vh;
+    height: 20vh;
+    background-color: rgb(116, 230, 205);
+    float: right;
+}
+
+.clear-fix{
+    clear: both;
+}
+.foot{
+    width: 100vh;
+    height: 10vh;
+    background-color: rgb(61, 50, 85);
+}
