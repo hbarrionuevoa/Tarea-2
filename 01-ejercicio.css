@@ -5,43 +5,44 @@
 
 body{
     height: 100vh;
+    width: 100vw;
 }
 
 header{
-    width: 100vh;
+    width: 100vw;
     height: 20vh;
     background-color: darkorchid;
 }
 
 .sidebar{
-    width: 33vh;
+    width: 33vw;
     height: 50vh;
     background-color: darksalmon;
     float: left;
 }
 
 .main-content{
-    width: 100vh;
+    width: 100vw;
     height: 50vh;
     background-color: darkcyan;
 }
 
 .aside-1{
-    width: 33vh;
+    width: 33vw;
     height: 20vh;
     background-color: darkseagreen;
     float: left;
 }
 
 .aside-2{
-    width: 31vh;
+    width: 33.5vw;
     height: 20vh;
     background-color: darkolivegreen;
     float: left;
 }
 
 .aside-3{
-    width: 32.8vh;
+    width: 33.5vw;
     height: 20vh;
     background-color: rgb(116, 230, 205);
     float: right;
@@ -51,7 +52,7 @@ header{
     clear: both;
 }
 .foot{
-    width: 100vh;
+    width: 100vw;
     height: 10vh;
     background-color: rgb(61, 50, 85);
 }
