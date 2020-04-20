@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 600px;
+    height: 600px;
+    margin: 30px auto;
+    background-color: #E8E7E7;
+    position: relative;
+}
+
+.contenedor-imagen{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    border-radius: 10px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    border-radius: 50%;
+    transform: translate(-50%);
+}
+
+.texto{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.texto p{
+    width: 300px;
+    margin: 13px;
+}
+
+.texto .p-1{
+    font-family: 'Baloo Paaji 2', cursive;
+    color: #5699D3;
+    font-weight: bolder;
+}
+
+.texto .p-2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    color: #AC9780;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+a{
+    color: #2B80C7;
+    margin: 0px 12px;
+}
+.iconos{
+    margin-top: 20px;
+}
